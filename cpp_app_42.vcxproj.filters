@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{05095de5-c4b9-49a7-b3d6-1c8505c8c97b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Funk">
+      <UniqueIdentifier>{162520e9-78f3-43d2-8fb7-582cb45e1ed1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Funk.cpp">
+      <Filter>Funk</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Funk.h">
+      <Filter>Funk</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
